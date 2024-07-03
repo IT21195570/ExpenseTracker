@@ -63,7 +63,7 @@ const ExpenseStyled = styled.div`
         span{
             font-size: 2.5rem;
             font-weight: 500;
-            color: var(--color-green);
+            color: var(--color-delete);
         }
     }
     .income-content{

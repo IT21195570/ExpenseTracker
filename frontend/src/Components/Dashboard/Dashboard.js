@@ -16,7 +16,7 @@ function Dashboard() {
     return (
         <DashboardStyled>
             <InnerLayout>
-                <h1>All Transactions</h1>
+                <h1>Welcome FinWise!</h1>
                 <div className="stats-con">
                     <div className="chart-con">
                         <img src={require('../../img/finance.jpg')} alt="Finance" className="finance-image" />
