@@ -1,13 +1,15 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { signout } from '../../utils/icons'
-import { menuItems } from '../../utils/menuitems'
+import avatar from '../../img/avatar.png'
+import { signout } from '../../utils/Icons'
+import { menuItems } from '../../utils/menuItems'
 
 function Navigation({active, setActive}) {
     
     return (
         <NavStyled>
             <div className="user-con">
+               
                 <div className="text">
                     <h2>Hello</h2>
                     <p>Manage Your Finance</p>
